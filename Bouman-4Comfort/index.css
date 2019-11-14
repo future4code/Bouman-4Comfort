@@ -12,12 +12,12 @@ header {
     text-align: left;
     font-size: 30px;
     border-bottom: 3px solid black;
-    background-color: #012E40;
+    background-color: #dae5e8;
 }
 header h2 {
     font-family: 'Shadows Into Light', cursive;
     margin-left: 3%;
-    color: #ffffff;
+    color: #000000;
 }
 /*barra de navegação*/
 nav {
@@ -47,7 +47,7 @@ nav a {
 }
 /*coteudo da pagina*/
 body{
-    background: linear-gradient(to top right, #012e40 3%, #d8e8f2 100%);
+    background: linear-gradient(to left, #eeeeee 8%, #ccccff 100%);
 }
 #main-container{
     display: grid;
@@ -111,5 +111,20 @@ footer {
     border-top: 3px solid black; 
     text-align: center;
     padding-top: 5px;
-    background-color: #012E40;
+    background-color: #dae5e8;
+}
+.titulo-galeria{
+    font-family: 'Titillium Web', sans-serif;
+    padding: 5%;
+}
+section#parte3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+section#parte3 img {
+    box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.75);
+    margin-bottom:10px;
+    width: 70%;
+    height: 70%;  
 }
