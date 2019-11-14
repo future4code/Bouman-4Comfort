@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body{
+    background-color:  #DAE5E8;
+}
+.contato{
+    background-color: white;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato h1{
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 5px;
+}
+
+header img{
+    width: 30vw;
+}
+
+header{
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+span{
+    color: red;
+}
+
+form{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    
+}
+
+.text-box-forms{
+    width: 50vw;
+    height: 5vh;
+}
+
+.msg-box{
+    height: 10vh;
+    width: 90vw;
+    margin-top: 20px;
+}
+
+
+
+.formulario button{
+    width: 91vw;
+    height: 5vh;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 20px;
+}

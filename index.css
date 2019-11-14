@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Titillium+Web&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*cabelho*/
+header {
+    width: 100%;
+    height: 10vh;
+    position: block;
+    top: 0;
+    text-align: left;
+    font-size: 30px;
+    border-bottom: 3px solid black;
+    background-color: #dae5e8;
+}
+header h2 {
+    font-family: 'Shadows Into Light', cursive;
+    margin-left: 3%;
+    color: #000000;
+}
+/*barra de navegação*/
+nav {
+    display: in;
+}
+nav ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 2%;
+    left: 60%;
+}
+nav li {
+    display: inline;
+    background-color: black;
+    padding: 2vh;
+    border-radius: 5px;
+}
+nav li:hover {
+    background-color: grey;
+    color: black;
+}
+nav a {
+    color: #a3bec6;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+/*coteudo da pagina*/
+body{
+    background: linear-gradient(to left, #eeeeee 8%, #ccccff 100%);
+}
+#main-container{
+    display: grid;
+    width: 85%;
+    margin-top: 7%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "um"
+                         "dois"
+                         "tres";
+}
+/*configuração das três seçoes*/
+section{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 7px #001100;
+    background: linear-gradient(to bottom, #2f6073 41%, #6393a6 71%);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin: 2% 5%;
+    padding: 3%;
+
+}
+/*configuração grid area*/
+section#parte1{
+    grid-area: um;
+}
+section#parte2{
+    grid-area: dois;
+}
+section#parte3{
+    grid-area: tres;
+}
+article{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 7px #001100;
+    background-color: #a8b3b6;
+}
+article.artigo1{
+    display: grid;
+    justify-self:center;
+    padding: 5%;
+}
+article.artigo2{
+    width: 50%;
+    height: 40vh;
+    display: grid;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 5%;
+}
+
+/*rodapé*/
+footer {
+    width: 100%;
+    height: 18vh;
+    position: block;
+    bottom: 0; 
+    border-top: 3px solid black; 
+    text-align: center;
+    padding-top: 5px;
+    background-color: #dae5e8;
+}
+.titulo-galeria{
+    font-family: 'Titillium Web', sans-serif;
+    padding: 5%;
+}
+section#parte3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+section#parte3 img {
+    box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.75);
+    margin-bottom:10px;
+    width: 70%;
+    height: 70%;  
+}
