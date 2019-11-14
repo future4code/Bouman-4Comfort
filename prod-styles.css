@@ -106,13 +106,42 @@ footer button{
 }
 .sociais img{
     margin-top: 3rem;
+    padding-left: 1rem;
 }
 
 @media screen and (min-device-width: 421px) and (max-device-width: 800px){
 
 .tenis-produtos img{
+    max-width: 339px;
+
+}
+
+}
+
+@media screen and (min-device-width: 801px){
+.tenis-produtos img{
 
     max-width: 339px;
+    margin-top: 0px;
+}
+
+section{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100rem;
+}
+
+main{
+    height: 118rem;
+}
+
+#container-topo p{
+    padding-left: 10px;
+    font-size: 32px;
+}
+#container-topo h1{
+    font-size: 35px;
 
 }
 
