@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #DAE5E8;
+    position: fixed;
+    top: 0;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+section {
+
+}
+
+.texto-base {
+    font-size: x-large;
+}
+
+.resoponsive {
+    width: 10vw;
+    height: auto;
+}
